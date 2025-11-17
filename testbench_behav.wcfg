@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,996 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="237"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/we_a_n" type="logic">
+      <obj_property name="ElementShortName">we_a_n</obj_property>
+      <obj_property name="ObjectShortName">we_a_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/addr_a" type="array">
+      <obj_property name="ElementShortName">addr_a[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/din_a" type="array">
+      <obj_property name="ElementShortName">din_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dout_a" type="array">
+      <obj_property name="ElementShortName">dout_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/we_b_n" type="logic">
+      <obj_property name="ElementShortName">we_b_n</obj_property>
+      <obj_property name="ObjectShortName">we_b_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/addr_b" type="array">
+      <obj_property name="ElementShortName">addr_b[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/din_b" type="array">
+      <obj_property name="ElementShortName">din_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dout_b" type="array">
+      <obj_property name="ElementShortName">dout_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/we_a_prev" type="logic">
+      <obj_property name="ElementShortName">we_a_prev</obj_property>
+      <obj_property name="ObjectShortName">we_a_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/we_b_prev" type="logic">
+      <obj_property name="ElementShortName">we_b_prev</obj_property>
+      <obj_property name="ObjectShortName">we_b_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
